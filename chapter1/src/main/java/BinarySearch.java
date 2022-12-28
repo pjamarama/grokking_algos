@@ -10,7 +10,7 @@ Outside the loop return -1.
 public class BinarySearch {
     public static void main(String[] args) {
         int[] array = new int[] {3, 6, 8, 9, 11, 14, 16, 19, 22, 29};
-        System.out.println(bisearch(6, array));
+        System.out.println(bisearch(22, array));
     }
 
     private static int bisearch (int number, int[] array) {

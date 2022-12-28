@@ -1,8 +1,8 @@
 /*
 Create loop for unsorted array.
-Set index of min value. It will move together with unsorted array.
-Create loop to find the min value.
-Swap the current element of the outer loop with the min value element. Swap indices not values!
+Create loop to find the min value. This loop will move alongside with outer loop incrementing in maner "j = i + 1".
+Set index of min value equal to outer loop increment. It will change together with unsorted array.
+Swap the current element of the outer loop with the min value element. Swap values not indices
  */
 
 public class SelectionSort {
